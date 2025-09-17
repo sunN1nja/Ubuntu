@@ -34,6 +34,7 @@ sudo apt install whois -y
 sudo apt install dnsutils -y
 sudo apt install openvpn -y
 sudo apt install wireshark -y && sudo dpkg-reconfigure wireshark-common
+sudo apt install remmina -y
 
 # Программы для работы с файлами
 sudo apt install mc -y
