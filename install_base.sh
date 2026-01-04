@@ -2,6 +2,9 @@
 
 # Перед его запуском, лучше всего узнать текущую версию [Visual Studio Code](https://code.visualstudio.com/download#)
 
+# KeepPassXC rep
+sudo add-apt-repository ppa:phoerious/keepassxc
+
 # Обновление системы
 sudo apt update -y && sudo apt upgrade -y
 
@@ -15,6 +18,22 @@ sudo apt install iotop -y
 sudo apt install tree -y
 sudo apt install lsof -y
 sudo apt install bleachbit -y
+
+# KeepPassXC
+sudo apt install keepassxc -y
+
+# draw.io
+sudo snap install drawio
+
+# Obsidian
+sudo snap install obsidian --classic
+
+# VLC
+sudo apt install vlc -y
+
+# Gnome
+sudo apt install gnome-tweaks -y
+sudo apt install gnome-shell-extension-manager -y
 
 # Сетевый утилиты
 sudo apt install net-tools -y
@@ -60,6 +79,7 @@ sudo apt install thunderbird -y
 
 # Messangers
 sudo apt install pidgin pidgin-otr -y
+sudo apt install telegram-desktop -y
 
 # Установка Google Chrome
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
